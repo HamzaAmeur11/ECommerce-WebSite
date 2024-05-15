@@ -57,6 +57,19 @@
 	}
 }
 
+
+.red {
+	@apply border border-red-600
+}
+
+.blue {
+	@apply border border-b-sky-900
+}
+
+.green {
+	@apply border border-green-700
+}
+
 @layer utilities {
 
 	.btn_white_rounded {

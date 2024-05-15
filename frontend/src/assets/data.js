@@ -4,7 +4,7 @@ import p2_img from './product_2.png'
 import p3_img from './product_3.png'
 import p4_img from './product_4.png'
 
-// latest 
+// latest
 import p5_img from "./product_12.png";
 import p6_img from "./product_35.png";
 import p7_img from "./product_14.png";
@@ -22,7 +22,7 @@ import youtube from './youtube.svg'
 import linkedin from './linkedin.svg'
 
 
-export const POPULAR = [
+const POPULAR = [
   {
     id:1,
     name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
@@ -51,7 +51,7 @@ export const POPULAR = [
 ];
 
 
-export const LATEST = [
+const LATEST = [
   {
     id: 5,
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
@@ -110,8 +110,9 @@ export const LATEST = [
   },
 ];
 
+
 // FOOTER SECTION
-export const FOOTER_LINKS = [
+const FOOTER_LINKS = [
   {
     title: "Learn More",
     links: [
@@ -133,7 +134,8 @@ export const FOOTER_LINKS = [
   },
 ];
 
-export const FOOTER_CONTACT_INFO = {
+
+const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [
     { label: "Contact Number", value: "123-456-7890" },
@@ -141,7 +143,8 @@ export const FOOTER_CONTACT_INFO = {
   ],
 };
 
-export const SOCIALS = {
+
+const SOCIALS = {
   title: "Social",
   links: [
     facebook,
@@ -152,3 +155,4 @@ export const SOCIALS = {
   ],
 };
 
+export default {POPULAR, LATEST, FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS}
